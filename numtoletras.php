@@ -1,16 +1,5 @@
 <?php
- 
-//------    CONVERTIR NUMEROS A LETRAS         ---------------
-//------    Máxima cifra soportada: 18 dígitos con 2 decimales
-//------    999,999,999,999,999,999.99
-// NOVECIENTOS NOVENTA Y NUEVE MIL NOVECIENTOS NOVENTA Y NUEVE BILLONES
-// NOVECIENTOS NOVENTA Y NUEVE MIL NOVECIENTOS NOVENTA Y NUEVE MILLONES
-// NOVECIENTOS NOVENTA Y NUEVE MIL NOVECIENTOS NOVENTA Y NUEVE PESOS 99/100 M.N.
-//------    Creada por:                        ---------------
-//------             ULTIMINIO RAMOS GALÁN     ---------------
-//------            uramos@gmail.com           ---------------
-//------    10 de junio de 2009. México, D.F.  ---------------
-//------    PHP Version 4.3.1 o mayores (aunque podría funcionar en versiones anteriores, tendrías que probar)
+
 function numtoletras($xcifra)
 {
     $xarray = array(0 => "Cero",
